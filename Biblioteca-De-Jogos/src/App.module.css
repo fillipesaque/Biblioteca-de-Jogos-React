@@ -1,0 +1,36 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 40px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.divTitulo input{
+    margin-left:  10px ;
+}
+
+.divCapa input{
+    margin-left:  10px ;
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+}
+.games img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
